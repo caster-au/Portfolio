@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width:100%;
+    background-image:url("moon.jpg") ;
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    color: blueviolet;
+    font-size: 35px;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+span{
+    color: rgb(230, 29, 129);
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.nav ul li{
+    display: inline-block;
+    padding: 10px;
+}
+.nav ul li a{
+    color:rgb(230, 29, 129);
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    color:blueviolet;
+}
+.btn{
+    background-color: blueviolet;
+    color:white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s
+}
+.btn:hover{
+    transform: scale(1.1);
+    background-color: rgb(230, 29, 129);
+}
+.content{
+    position: absolute;
+    top:50%;
+    left:8%;
+}
+h1{
+    color: blueviolet;
+    margin: 20px 0 20px;
+    font-size: 70px;
+}
+h3{
+    color: blueviolet;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: blueviolet;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.newsletter form{
+    width:400px;
+    max-width: 100%;
+    position: relative;
+}
+.newsletter form input:first-child{
+width: 100%;
+display: inline-block;
+padding: 14px 130px 14px 15px;
+border: 2px solid rgb(230, 29, 129);
+border-radius: 30px;
+}
+.newsletter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: blueviolet;
+    color: white;
+    top :6px;
+    right:10px;
+}
